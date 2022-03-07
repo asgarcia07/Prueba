@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "10259be6-264e-4c87-95e9-74c971cd5aaa",
+		"name": "Prueba TBTB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "RegistrarMedico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Alan\",\r\n  \"apellido\": \"Brito\",\r\n  \"numeroDocumento\": \"6729478284\",\r\n  \"especialidad\": \"1\",\r\n  \"descripcion\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/CRUD/api/RegistrarMedico",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"CRUD",
+						"api",
+						"RegistrarMedico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarMedico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idMedico\": \"1\",\r\n  \"nombre\": \"Pedro\",\r\n  \"apellido\": \"Perez\",\r\n  \"numeroDocumento\": \"1111111\",\r\n  \"especialidad\": \"6\",\r\n  \"descripcion\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/CRUD/api/ActualizarMedico",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"CRUD",
+						"api",
+						"ActualizarMedico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarMedicoID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44347/CRUD/api/ConsultarMedico/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"CRUD",
+						"api",
+						"ConsultarMedico",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ConsultarListaMedicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44347/CRUD/api/ConsultarListadoMedicos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"CRUD",
+						"api",
+						"ConsultarListadoMedicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarMedicoID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44347/CRUD/api/EliminarMedico/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"CRUD",
+						"api",
+						"EliminarMedico",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
