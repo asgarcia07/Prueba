@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRest_TBTB", "ServiceRest_TBTB\ServiceRest_TBTB.csproj", "{65D5DD1D-9D22-4E3F-B2F8-405B0F9F278F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D5DD1D-9D22-4E3F-B2F8-405B0F9F278F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D5DD1D-9D22-4E3F-B2F8-405B0F9F278F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D5DD1D-9D22-4E3F-B2F8-405B0F9F278F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D5DD1D-9D22-4E3F-B2F8-405B0F9F278F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3590D8C5-6F0C-44F0-B50C-69EA1F3B8319}
+	EndGlobalSection
+EndGlobal
